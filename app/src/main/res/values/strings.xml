@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Vision</string>
+    <string name="title_activity_main">Vision</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About Developer</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="cybermind_label">Cybermind</string>
+    <string name="expotech_label">Expotech</string>
+    <string name="robotech_label">Robotech</string>
+    <string name="technozion_label">Technozion</string>
+    <string name="ipd_label">I P D</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/cybermind_label</item>
+        <item>@string/expotech_label</item>
+        <item>@string/robotech_label</item>
+        <item>@string/technozion_label</item>
+        <item>@string/ipd_label</item>
+        <item>Press and Correspondence</item>
+        <item>Finance</item>
+        <item>Refreshment</item>
+    </string-array>
+
+    <string name="title_cyber">Cybermind</string>
+    <string name="title_expo">Expotech</string>
+    <string name="title_robo">Robotech</string>
+    <string name="tittle_techno">Technozion</string>
+    <string name="title_ipd">I P D</string>
+
+    <string name="title_activity_vision">Vision</string>
+    <string name="action_share">Share</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cyberCheifco">Dhanshri Chavan</string>
+    <string name="title_activity_fianance">fianance</string>
+    <string name="title_activity_deveoper_me">deveoperMe</string>
+</resources>
