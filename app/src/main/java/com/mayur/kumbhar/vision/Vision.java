@@ -106,14 +106,14 @@ public class Vision extends AppCompatActivity implements FragmentDrawer.Fragment
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent =new Intent(Vision.this,deveoperMe.class);
+            Intent intent = new Intent(Vision.this, deveoperMe.class);
             startActivity(intent);
             return true;
         }
-        if(id==R.id.action_search){
-            Intent intent=new Intent(Intent.ACTION_SEND);
+        if (id == R.id.action_search) {
+            Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
-            String body="Walchand College Of Engineering Sangli\n\nPresents VISION 16\n A national level technical event\n\n download the app and get full details of VISION 16\n";
+            String body = "Walchand College Of Engineering Sangli\n\nPresents VISION 16\n A national level technical event\n\n download the app and get full details of VISION 16\n\n http://goo.gl/wWX37R  ";
             intent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
             intent.putExtra(android.content.Intent.EXTRA_TEXT, body);
             startActivity(Intent.createChooser(intent, "Share via"));
@@ -125,8 +125,6 @@ public class Vision extends AppCompatActivity implements FragmentDrawer.Fragment
     public void onDrawerItemSelected(View view, int position) {
         displayView(position);
     }
-
-
 
 
 }
